@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+
+<div>
+    <h1>Twój pomysł</h1>
+    <p><br> Poniżej możesz przesłać nam swój pomysł na walkę z ociepleniem klimatu.<br></br></p>
+  </div>
+
+  <div>
+    <form enctype="text/plain" action="mailto:natala04n@gmail.com?temat_mejla" method="post">
+   <p> Imię:<br>
+   <input type="text" name="firstname" value=""> <br>
+    Twoje pomysły:
+      <br>
+      <textarea name="content" rows="12" cols="50"></textarea> <br>
+
+  <input type="submit" value="Wyślij">  </p>
+</form>
+</div>
+
+{% endblock content %}

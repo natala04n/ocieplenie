@@ -1,0 +1,53 @@
+h1 {
+  color: black;
+  text-align: center;
+  font-style: normal;
+  font-family: Verdana;
+  text-decoration: underline;
+  text-decoration-color:  #cc3300;
+}
+
+h2 {
+  color: green;
+  text-align: center;
+}
+
+body{
+  background-image: url("/static/img/cegly.jpg");
+}
+
+#button {
+  background-color: #ff944d;
+  background-image: url("/static/img/dym2.jpg");
+  border: none;
+  color: white;
+  padding: 15px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: center-block;
+  font-size: 16px;
+  font-family: Verdana;
+
+}
+
+p {
+  text-align: center;
+  font-style: normal;
+  font-family: Verdana;
+  font-weight: 500;
+  color: black;
+  background-color: white;
+  background-image: url("/static/img/dym2.jpg");
+}
+
+form {
+  text-align: center;
+}
+
+iframe {
+    display: block;
+    width: 560px;
+    height: 315px;
+    margin: 0 auto;
+    border: 0;
+}
